@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 
 // app.use(cors({credentials:true,origin:'https://blogsite-rosy.vercel.app'}));
 
-app.use(cors({credentials:true,origin:'http://localhost:5173'}));
+app.use(cors());
 
 
 app.use(express.json())
